@@ -182,37 +182,13 @@ AltercentricDiagnosis_PriorCheck_m <- brm(
 
     ## Compiling the C++ model
 
-    ## Trying to compile a simple C file
-
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
-
     ## Start sampling
 
     ## 
     ## SAMPLING FOR MODEL '2e80d7b3a6f60043dae1ffabb00f0844' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 1.5e-05 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
+    ## Chain 1: Gradient evaluation took 2.1e-05 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.21 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -229,15 +205,15 @@ AltercentricDiagnosis_PriorCheck_m <- brm(
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.030131 seconds (Warm-up)
-    ## Chain 1:                0.019502 seconds (Sampling)
-    ## Chain 1:                0.049633 seconds (Total)
+    ## Chain 1:  Elapsed Time: 0.022872 seconds (Warm-up)
+    ## Chain 1:                0.017891 seconds (Sampling)
+    ## Chain 1:                0.040763 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '2e80d7b3a6f60043dae1ffabb00f0844' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 3e-06 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+    ## Chain 2: Gradient evaluation took 4e-06 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -254,9 +230,9 @@ AltercentricDiagnosis_PriorCheck_m <- brm(
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.025372 seconds (Warm-up)
-    ## Chain 2:                0.023724 seconds (Sampling)
-    ## Chain 2:                0.049096 seconds (Total)
+    ## Chain 2:  Elapsed Time: 0.024879 seconds (Warm-up)
+    ## Chain 2:                0.022298 seconds (Sampling)
+    ## Chain 2:                0.047177 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '2e80d7b3a6f60043dae1ffabb00f0844' NOW (CHAIN 3).
@@ -279,15 +255,15 @@ AltercentricDiagnosis_PriorCheck_m <- brm(
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.026383 seconds (Warm-up)
-    ## Chain 3:                0.021081 seconds (Sampling)
-    ## Chain 3:                0.047464 seconds (Total)
+    ## Chain 3:  Elapsed Time: 0.02151 seconds (Warm-up)
+    ## Chain 3:                0.024112 seconds (Sampling)
+    ## Chain 3:                0.045622 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '2e80d7b3a6f60043dae1ffabb00f0844' NOW (CHAIN 4).
     ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 3e-06 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+    ## Chain 4: Gradient evaluation took 6e-06 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.
     ## Chain 4: Adjust your expectations accordingly!
     ## Chain 4: 
     ## Chain 4: 
@@ -304,9 +280,9 @@ AltercentricDiagnosis_PriorCheck_m <- brm(
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.024628 seconds (Warm-up)
-    ## Chain 4:                0.020066 seconds (Sampling)
-    ## Chain 4:                0.044694 seconds (Total)
+    ## Chain 4:  Elapsed Time: 0.025333 seconds (Warm-up)
+    ## Chain 4:                0.02113 seconds (Sampling)
+    ## Chain 4:                0.046463 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -328,30 +304,6 @@ AltercentricDiagnosis_m <- brm(
 ```
 
     ## Compiling the C++ model
-    ## Trying to compile a simple C file
-
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
-
     ## Start sampling
 
     ## 
@@ -375,15 +327,15 @@ AltercentricDiagnosis_m <- brm(
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.025804 seconds (Warm-up)
-    ## Chain 1:                0.031399 seconds (Sampling)
-    ## Chain 1:                0.057203 seconds (Total)
+    ## Chain 1:  Elapsed Time: 0.026226 seconds (Warm-up)
+    ## Chain 1:                0.023696 seconds (Sampling)
+    ## Chain 1:                0.049922 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '501c4de236ade3d60a007a655a601366' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 7e-06 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+    ## Chain 2: Gradient evaluation took 1.6e-05 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.16 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -400,15 +352,15 @@ AltercentricDiagnosis_m <- brm(
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.027126 seconds (Warm-up)
-    ## Chain 2:                0.027295 seconds (Sampling)
-    ## Chain 2:                0.054421 seconds (Total)
+    ## Chain 2:  Elapsed Time: 0.030366 seconds (Warm-up)
+    ## Chain 2:                0.027353 seconds (Sampling)
+    ## Chain 2:                0.057719 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '501c4de236ade3d60a007a655a601366' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 1.8e-05 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.18 seconds.
+    ## Chain 3: Gradient evaluation took 1.1e-05 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -425,15 +377,15 @@ AltercentricDiagnosis_m <- brm(
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.03515 seconds (Warm-up)
-    ## Chain 3:                0.02681 seconds (Sampling)
-    ## Chain 3:                0.06196 seconds (Total)
+    ## Chain 3:  Elapsed Time: 0.027302 seconds (Warm-up)
+    ## Chain 3:                0.026809 seconds (Sampling)
+    ## Chain 3:                0.054111 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '501c4de236ade3d60a007a655a601366' NOW (CHAIN 4).
     ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 1.6e-05 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.16 seconds.
+    ## Chain 4: Gradient evaluation took 1.2e-05 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.12 seconds.
     ## Chain 4: Adjust your expectations accordingly!
     ## Chain 4: 
     ## Chain 4: 
@@ -450,9 +402,9 @@ AltercentricDiagnosis_m <- brm(
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.035477 seconds (Warm-up)
-    ## Chain 4:                0.025279 seconds (Sampling)
-    ## Chain 4:                0.060756 seconds (Total)
+    ## Chain 4:  Elapsed Time: 0.029562 seconds (Warm-up)
+    ## Chain 4:                0.029762 seconds (Sampling)
+    ## Chain 4:                0.059324 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -478,22 +430,97 @@ AltercentricDiagnosis_m
     ## 
     ## Population-Level Effects: 
     ##                        Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
-    ## DiagnosisControls          3.86      0.06     3.75     3.98 1.00     4171
-    ## DiagnosisSchizophrenia     4.22      0.11     4.01     4.43 1.00     3412
+    ## DiagnosisControls          3.86      0.06     3.74     3.98 1.00     4228
+    ## DiagnosisSchizophrenia     4.22      0.11     4.02     4.43 1.00     4029
     ##                        Tail_ESS
-    ## DiagnosisControls          2967
-    ## DiagnosisSchizophrenia     2218
+    ## DiagnosisControls          2957
+    ## DiagnosisSchizophrenia     2917
     ## 
     ## Family Specific Parameters: 
     ##       Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
-    ## sigma     0.92      0.04     0.85     0.99 1.00     4235     3219
+    ## sigma     0.91      0.04     0.85     0.99 1.00     3504     3138
     ## 
     ## Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
     ## and Tail_ESS are effective sample size measures, and Rhat is the potential
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
+summary(AltercentricDiagnosis_m)
+```
+
+    ##  Family: gaussian 
+    ##   Links: mu = identity; sigma = identity 
+    ## Formula: AltercentricIntrusion ~ 0 + Diagnosis 
+    ##    Data: d (Number of observations: 300) 
+    ## Samples: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+    ##          total post-warmup samples = 4000
+    ## 
+    ## Population-Level Effects: 
+    ##                        Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+    ## DiagnosisControls          3.86      0.06     3.74     3.98 1.00     4228
+    ## DiagnosisSchizophrenia     4.22      0.11     4.02     4.43 1.00     4029
+    ##                        Tail_ESS
+    ## DiagnosisControls          2957
+    ## DiagnosisSchizophrenia     2917
+    ## 
+    ## Family Specific Parameters: 
+    ##       Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+    ## sigma     0.91      0.04     0.85     0.99 1.00     3504     3138
+    ## 
+    ## Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+    ## and Tail_ESS are effective sample size measures, and Rhat is the potential
+    ## scale reduction factor on split chains (at convergence, Rhat = 1).
+
+``` r
+hypothesis(AltercentricDiagnosis_m,
+           "DiagnosisSchizophrenia > 0")
+```
+
+    ## Hypothesis Tests for class b:
+    ##                 Hypothesis Estimate Est.Error CI.Lower CI.Upper Evid.Ratio
+    ## 1 (DiagnosisSchizop... > 0     4.22      0.11     4.05      4.4        Inf
+    ##   Post.Prob Star
+    ## 1         1    *
+    ## ---
+    ## 'CI': 90%-CI for one-sided and 95%-CI for two-sided hypotheses.
+    ## '*': For one-sided hypotheses, the posterior probability exceeds 95%;
+    ## for two-sided hypotheses, the value tested against lies outside the 95%-CI.
+    ## Posterior probabilities of point hypotheses assume equal prior probabilities.
+
+``` r
+hypothesis(AltercentricDiagnosis_m,
+           "DiagnosisControls > 0")
+```
+
+    ## Hypothesis Tests for class b:
+    ##                Hypothesis Estimate Est.Error CI.Lower CI.Upper Evid.Ratio
+    ## 1 (DiagnosisControls) > 0     3.86      0.06     3.76     3.96        Inf
+    ##   Post.Prob Star
+    ## 1         1    *
+    ## ---
+    ## 'CI': 90%-CI for one-sided and 95%-CI for two-sided hypotheses.
+    ## '*': For one-sided hypotheses, the posterior probability exceeds 95%;
+    ## for two-sided hypotheses, the value tested against lies outside the 95%-CI.
+    ## Posterior probabilities of point hypotheses assume equal prior probabilities.
+
+``` r
 #hypotheis testing, updating check
+hypothesis(AltercentricDiagnosis_m,
+           "DiagnosisSchizophrenia > DiagnosisControls")
+```
+
+    ## Hypothesis Tests for class b:
+    ##                 Hypothesis Estimate Est.Error CI.Lower CI.Upper Evid.Ratio
+    ## 1 (DiagnosisSchizop... > 0     0.36      0.12     0.16     0.56        499
+    ##   Post.Prob Star
+    ## 1         1    *
+    ## ---
+    ## 'CI': 90%-CI for one-sided and 95%-CI for two-sided hypotheses.
+    ## '*': For one-sided hypotheses, the posterior probability exceeds 95%;
+    ## for two-sided hypotheses, the value tested against lies outside the 95%-CI.
+    ## Posterior probabilities of point hypotheses assume equal prior probabilities.
+
+``` r
 plot(hypothesis(AltercentricDiagnosis_m,
            "DiagnosisSchizophrenia > DiagnosisControls"))
 ```
@@ -507,7 +534,7 @@ hypothesis(AltercentricDiagnosis_m,
 
     ## Hypothesis Tests for class b:
     ##                 Hypothesis Estimate Est.Error CI.Lower CI.Upper Evid.Ratio
-    ## 1 (DiagnosisSchizop... > 0     0.36      0.12     0.16     0.56     443.44
+    ## 1 (DiagnosisSchizop... > 0     0.36      0.12     0.16     0.56        499
     ##   Post.Prob Star
     ## 1         1    *
     ## ---
@@ -558,15 +585,53 @@ Discuss whether the results make sense.
 #scale - if we don't there will be some correlations of intercept and slope 
 d <- d %>%
   mutate(
-    AltercentricIntrusion = scale(AltercentricIntrusion),
+    AltercentricIntrusion_truescale = scale(AltercentricIntrusion),
     VoiceHearing = scale(VoiceHearing),
     MindReading = scale(MindReading),
     Apathy = scale(Apathy)
   )
 
+d <- d %>%
+  mutate(
+    AltercentricIntrusion_scale = (AltercentricIntrusion - mean(AltercentricIntrusion)) / sd (AltercentricIntrusion))
+
 #subset with only schizophrenia 
 scz <- subset(d, Diagnosis == "Schizophrenia")
+summary(scz)
+```
 
+    ##    VoiceHearing.V1       MindReading.V1         Apathy.V1      
+    ##  Min.   :-0.4631064   Min.   :-1.5752946   Min.   :-0.6603158  
+    ##  1st Qu.: 0.5537819   1st Qu.: 0.0749862   1st Qu.: 0.4945482  
+    ##  Median : 0.9644676   Median : 0.6298221   Median : 0.9923623  
+    ##  Mean   : 0.9876248   Mean   : 0.6923401   Mean   : 0.9391452  
+    ##  3rd Qu.: 1.5582076   3rd Qu.: 1.3848345   3rd Qu.: 1.4869851  
+    ##  Max.   : 2.4340907   Max.   : 2.6852970   Max.   : 2.3962430  
+    ##                                                                
+    ##  AltercentricIntrusion       ID             Diagnosis 
+    ##  Min.   :2.390         3      : 1   Controls     : 0  
+    ##  1st Qu.:3.708         4      : 1   Schizophrenia:75  
+    ##  Median :4.145         5      : 1                     
+    ##  Mean   :4.227         16     : 1                     
+    ##  3rd Qu.:4.714         18     : 1                     
+    ##  Max.   :6.312         23     : 1                     
+    ##                        (Other):69                     
+    ##  AltercentricIntrusion_truescale.V1 AltercentricIntrusion_scale
+    ##  Min.   :-1.6915010                 Min.   :-1.6915            
+    ##  1st Qu.:-0.2643837                 1st Qu.:-0.2644            
+    ##  Median : 0.2084990                 Median : 0.2085            
+    ##  Mean   : 0.2973705                 Mean   : 0.2974            
+    ##  3rd Qu.: 0.8249317                 3rd Qu.: 0.8249            
+    ##  Max.   : 2.5559055                 Max.   : 2.5559            
+    ## 
+
+``` r
+sd(scz$AltercentricIntrusion)
+```
+
+    ## [1] 0.8168041
+
+``` r
 #DEFINE FORMULA -------------------------------------
 #voice hearing
 voicehearing_f <- bf(
@@ -601,7 +666,7 @@ get_prior(voicehearing_f, family = gaussian, scz)
     ##                 prior     class         coef group resp dpar nlpar bound
     ## 1                             b                                         
     ## 2                             b VoiceHearing                            
-    ## 3 student_t(3, 0, 10) Intercept                                         
+    ## 3 student_t(3, 4, 10) Intercept                                         
     ## 4 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -611,7 +676,7 @@ get_prior(mindreading_f, family = gaussian, scz)
     ##                 prior     class        coef group resp dpar nlpar bound
     ## 1                             b                                        
     ## 2                             b MindReading                            
-    ## 3 student_t(3, 0, 10) Intercept                                        
+    ## 3 student_t(3, 4, 10) Intercept                                        
     ## 4 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -621,7 +686,7 @@ get_prior(apathy_f, family = gaussian, scz)
     ##                 prior     class   coef group resp dpar nlpar bound
     ## 1                             b                                   
     ## 2                             b Apathy                            
-    ## 3 student_t(3, 0, 10) Intercept                                   
+    ## 3 student_t(3, 4, 10) Intercept                                   
     ## 4 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -632,7 +697,7 @@ get_prior(voicemind_f, family = gaussian, scz)
     ## 1                             b                                         
     ## 2                             b  MindReading                            
     ## 3                             b VoiceHearing                            
-    ## 4 student_t(3, 0, 10) Intercept                                         
+    ## 4 student_t(3, 4, 10) Intercept                                         
     ## 5 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -644,7 +709,7 @@ get_prior(all_f, family = gaussian, scz)
     ## 2                             b       Apathy                            
     ## 3                             b  MindReading                            
     ## 4                             b VoiceHearing                            
-    ## 5 student_t(3, 0, 10) Intercept                                         
+    ## 5 student_t(3, 4, 10) Intercept                                         
     ## 6 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -666,37 +731,13 @@ voicehearing_PriorCheck_m <- brm(
 
     ## Compiling the C++ model
 
-    ## Trying to compile a simple C file
-
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
-
     ## Start sampling
 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 3.4e-05 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.34 seconds.
+    ## Chain 1: Gradient evaluation took 1.7e-05 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.17 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -713,15 +754,15 @@ voicehearing_PriorCheck_m <- brm(
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.027234 seconds (Warm-up)
-    ## Chain 1:                0.021654 seconds (Sampling)
-    ## Chain 1:                0.048888 seconds (Total)
+    ## Chain 1:  Elapsed Time: 0.028281 seconds (Warm-up)
+    ## Chain 1:                0.02129 seconds (Sampling)
+    ## Chain 1:                0.049571 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
     ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 3e-06 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+    ## Chain 2: Gradient evaluation took 4e-06 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
     ## Chain 2: Adjust your expectations accordingly!
     ## Chain 2: 
     ## Chain 2: 
@@ -738,15 +779,15 @@ voicehearing_PriorCheck_m <- brm(
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.028076 seconds (Warm-up)
-    ## Chain 2:                0.021278 seconds (Sampling)
-    ## Chain 2:                0.049354 seconds (Total)
+    ## Chain 2:  Elapsed Time: 0.026209 seconds (Warm-up)
+    ## Chain 2:                0.020797 seconds (Sampling)
+    ## Chain 2:                0.047006 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 4e-06 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+    ## Chain 3: Gradient evaluation took 5e-06 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -763,9 +804,9 @@ voicehearing_PriorCheck_m <- brm(
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.025038 seconds (Warm-up)
-    ## Chain 3:                0.031136 seconds (Sampling)
-    ## Chain 3:                0.056174 seconds (Total)
+    ## Chain 3:  Elapsed Time: 0.026016 seconds (Warm-up)
+    ## Chain 3:                0.021611 seconds (Sampling)
+    ## Chain 3:                0.047627 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
@@ -788,15 +829,10 @@ voicehearing_PriorCheck_m <- brm(
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.025111 seconds (Warm-up)
-    ## Chain 4:                0.021821 seconds (Sampling)
-    ## Chain 4:                0.046932 seconds (Total)
+    ## Chain 4:  Elapsed Time: 0.030766 seconds (Warm-up)
+    ## Chain 4:                0.024103 seconds (Sampling)
+    ## Chain 4:                0.054869 seconds (Total)
     ## Chain 4:
-
-    ## Warning: There were 3 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. See
-    ## http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
-
-    ## Warning: Examine the pairs() plot to diagnose sampling problems
 
 ``` r
 #prior checks
@@ -813,29 +849,127 @@ mindreading_PriorCheck_m <- brm(
 
     ## recompiling to avoid crashing R session
 
-    ## Trying to compile a simple C file
+    ## Start sampling
 
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 1).
+    ## Chain 1: 
+    ## Chain 1: Gradient evaluation took 2.1e-05 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.21 seconds.
+    ## Chain 1: Adjust your expectations accordingly!
+    ## Chain 1: 
+    ## Chain 1: 
+    ## Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 1: 
+    ## Chain 1:  Elapsed Time: 0.024229 seconds (Warm-up)
+    ## Chain 1:                0.019752 seconds (Sampling)
+    ## Chain 1:                0.043981 seconds (Total)
+    ## Chain 1: 
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
+    ## Chain 2: 
+    ## Chain 2: Gradient evaluation took 4e-06 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+    ## Chain 2: Adjust your expectations accordingly!
+    ## Chain 2: 
+    ## Chain 2: 
+    ## Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 2: 
+    ## Chain 2:  Elapsed Time: 0.02212 seconds (Warm-up)
+    ## Chain 2:                0.01883 seconds (Sampling)
+    ## Chain 2:                0.04095 seconds (Total)
+    ## Chain 2: 
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
+    ## Chain 3: 
+    ## Chain 3: Gradient evaluation took 7e-06 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+    ## Chain 3: Adjust your expectations accordingly!
+    ## Chain 3: 
+    ## Chain 3: 
+    ## Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 3: 
+    ## Chain 3:  Elapsed Time: 0.025159 seconds (Warm-up)
+    ## Chain 3:                0.020369 seconds (Sampling)
+    ## Chain 3:                0.045528 seconds (Total)
+    ## Chain 3: 
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
+    ## Chain 4: 
+    ## Chain 4: Gradient evaluation took 4e-06 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+    ## Chain 4: Adjust your expectations accordingly!
+    ## Chain 4: 
+    ## Chain 4: 
+    ## Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 4: 
+    ## Chain 4:  Elapsed Time: 0.025159 seconds (Warm-up)
+    ## Chain 4:                0.020727 seconds (Sampling)
+    ## Chain 4:                0.045886 seconds (Total)
+    ## Chain 4:
+
+    ## Warning: There were 2 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. See
+    ## http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+
+    ## Warning: Examine the pairs() plot to diagnose sampling problems
+
+``` r
+apathy_PriorCheck_m <- brm(
+  formula = apathy_f,
+  data = scz,
+  family = gaussian,
+  prior = prior,
+  sample_prior = "only"
+)
+```
+
+    ## Compiling the C++ model
+
+    ## recompiling to avoid crashing R session
 
     ## Start sampling
 
@@ -860,9 +994,9 @@ mindreading_PriorCheck_m <- brm(
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.022768 seconds (Warm-up)
-    ## Chain 1:                0.023457 seconds (Sampling)
-    ## Chain 1:                0.046225 seconds (Total)
+    ## Chain 1:  Elapsed Time: 0.025654 seconds (Warm-up)
+    ## Chain 1:                0.021443 seconds (Sampling)
+    ## Chain 1:                0.047097 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
@@ -885,15 +1019,15 @@ mindreading_PriorCheck_m <- brm(
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.02521 seconds (Warm-up)
-    ## Chain 2:                0.020347 seconds (Sampling)
-    ## Chain 2:                0.045557 seconds (Total)
+    ## Chain 2:  Elapsed Time: 0.024397 seconds (Warm-up)
+    ## Chain 2:                0.019976 seconds (Sampling)
+    ## Chain 2:                0.044373 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 3e-06 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
+    ## Chain 3: Gradient evaluation took 4e-06 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -910,9 +1044,126 @@ mindreading_PriorCheck_m <- brm(
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.027058 seconds (Warm-up)
-    ## Chain 3:                0.020729 seconds (Sampling)
-    ## Chain 3:                0.047787 seconds (Total)
+    ## Chain 3:  Elapsed Time: 0.023967 seconds (Warm-up)
+    ## Chain 3:                0.022851 seconds (Sampling)
+    ## Chain 3:                0.046818 seconds (Total)
+    ## Chain 3: 
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
+    ## Chain 4: 
+    ## Chain 4: Gradient evaluation took 7e-06 seconds
+    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+    ## Chain 4: Adjust your expectations accordingly!
+    ## Chain 4: 
+    ## Chain 4: 
+    ## Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 4: 
+    ## Chain 4:  Elapsed Time: 0.02245 seconds (Warm-up)
+    ## Chain 4:                0.02178 seconds (Sampling)
+    ## Chain 4:                0.04423 seconds (Total)
+    ## Chain 4:
+
+``` r
+voicemind_PriorCheck_m <- brm(
+  formula = voicemind_f,
+  data = scz,
+  family = gaussian,
+  prior = prior,
+  sample_prior = "only"
+)
+```
+
+    ## Compiling the C++ model
+
+    ## recompiling to avoid crashing R session
+
+    ## Start sampling
+
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 1).
+    ## Chain 1: 
+    ## Chain 1: Gradient evaluation took 1.9e-05 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.19 seconds.
+    ## Chain 1: Adjust your expectations accordingly!
+    ## Chain 1: 
+    ## Chain 1: 
+    ## Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 1: 
+    ## Chain 1:  Elapsed Time: 0.023695 seconds (Warm-up)
+    ## Chain 1:                0.0269 seconds (Sampling)
+    ## Chain 1:                0.050595 seconds (Total)
+    ## Chain 1: 
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
+    ## Chain 2: 
+    ## Chain 2: Gradient evaluation took 5e-06 seconds
+    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
+    ## Chain 2: Adjust your expectations accordingly!
+    ## Chain 2: 
+    ## Chain 2: 
+    ## Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 2: 
+    ## Chain 2:  Elapsed Time: 0.025023 seconds (Warm-up)
+    ## Chain 2:                0.021719 seconds (Sampling)
+    ## Chain 2:                0.046742 seconds (Total)
+    ## Chain 2: 
+    ## 
+    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
+    ## Chain 3: 
+    ## Chain 3: Gradient evaluation took 4e-06 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+    ## Chain 3: Adjust your expectations accordingly!
+    ## Chain 3: 
+    ## Chain 3: 
+    ## Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
+    ## Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
+    ## Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
+    ## Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
+    ## Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
+    ## Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
+    ## Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
+    ## Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
+    ## Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
+    ## Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
+    ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
+    ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
+    ## Chain 3: 
+    ## Chain 3:  Elapsed Time: 0.027786 seconds (Warm-up)
+    ## Chain 3:                0.02271 seconds (Sampling)
+    ## Chain 3:                0.050496 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
@@ -935,296 +1186,9 @@ mindreading_PriorCheck_m <- brm(
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.026614 seconds (Warm-up)
-    ## Chain 4:                0.022524 seconds (Sampling)
-    ## Chain 4:                0.049138 seconds (Total)
-    ## Chain 4:
-
-``` r
-apathy_PriorCheck_m <- brm(
-  formula = apathy_f,
-  data = scz,
-  family = gaussian,
-  prior = prior,
-  sample_prior = "only"
-)
-```
-
-    ## Compiling the C++ model
-
-    ## recompiling to avoid crashing R session
-
-    ## Trying to compile a simple C file
-
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
-
-    ## Start sampling
-
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 1).
-    ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 1.6e-05 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.16 seconds.
-    ## Chain 1: Adjust your expectations accordingly!
-    ## Chain 1: 
-    ## Chain 1: 
-    ## Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.022046 seconds (Warm-up)
-    ## Chain 1:                0.017752 seconds (Sampling)
-    ## Chain 1:                0.039798 seconds (Total)
-    ## Chain 1: 
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
-    ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 3e-06 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
-    ## Chain 2: Adjust your expectations accordingly!
-    ## Chain 2: 
-    ## Chain 2: 
-    ## Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.027297 seconds (Warm-up)
-    ## Chain 2:                0.018124 seconds (Sampling)
-    ## Chain 2:                0.045421 seconds (Total)
-    ## Chain 2: 
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
-    ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 3e-06 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
-    ## Chain 3: Adjust your expectations accordingly!
-    ## Chain 3: 
-    ## Chain 3: 
-    ## Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.026269 seconds (Warm-up)
-    ## Chain 3:                0.020915 seconds (Sampling)
-    ## Chain 3:                0.047184 seconds (Total)
-    ## Chain 3: 
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
-    ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 2e-06 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.02 seconds.
-    ## Chain 4: Adjust your expectations accordingly!
-    ## Chain 4: 
-    ## Chain 4: 
-    ## Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.023769 seconds (Warm-up)
-    ## Chain 4:                0.02083 seconds (Sampling)
-    ## Chain 4:                0.044599 seconds (Total)
-    ## Chain 4:
-
-    ## Warning: There were 3 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. See
-    ## http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
-
-    ## Warning: Examine the pairs() plot to diagnose sampling problems
-
-``` r
-voicemind_PriorCheck_m <- brm(
-  formula = voicemind_f,
-  data = scz,
-  family = gaussian,
-  prior = prior,
-  sample_prior = "only"
-)
-```
-
-    ## Compiling the C++ model
-
-    ## recompiling to avoid crashing R session
-
-    ## Trying to compile a simple C file
-
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
-
-    ## Start sampling
-
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 1).
-    ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 2.2e-05 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.22 seconds.
-    ## Chain 1: Adjust your expectations accordingly!
-    ## Chain 1: 
-    ## Chain 1: 
-    ## Chain 1: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 1: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 1: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 1: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 1: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 1: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 1: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 1: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 1: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 1: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.028582 seconds (Warm-up)
-    ## Chain 1:                0.022521 seconds (Sampling)
-    ## Chain 1:                0.051103 seconds (Total)
-    ## Chain 1: 
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
-    ## Chain 2: 
-    ## Chain 2: Gradient evaluation took 7e-06 seconds
-    ## Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
-    ## Chain 2: Adjust your expectations accordingly!
-    ## Chain 2: 
-    ## Chain 2: 
-    ## Chain 2: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 2: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 2: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 2: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 2: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 2: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 2: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 2: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 2: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 2: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.027302 seconds (Warm-up)
-    ## Chain 2:                0.028488 seconds (Sampling)
-    ## Chain 2:                0.05579 seconds (Total)
-    ## Chain 2: 
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
-    ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 3e-06 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
-    ## Chain 3: Adjust your expectations accordingly!
-    ## Chain 3: 
-    ## Chain 3: 
-    ## Chain 3: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 3: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 3: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 3: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 3: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 3: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 3: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 3: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 3: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 3: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.024397 seconds (Warm-up)
-    ## Chain 3:                0.025314 seconds (Sampling)
-    ## Chain 3:                0.049711 seconds (Total)
-    ## Chain 3: 
-    ## 
-    ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
-    ## Chain 4: 
-    ## Chain 4: Gradient evaluation took 3e-06 seconds
-    ## Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.
-    ## Chain 4: Adjust your expectations accordingly!
-    ## Chain 4: 
-    ## Chain 4: 
-    ## Chain 4: Iteration:    1 / 2000 [  0%]  (Warmup)
-    ## Chain 4: Iteration:  200 / 2000 [ 10%]  (Warmup)
-    ## Chain 4: Iteration:  400 / 2000 [ 20%]  (Warmup)
-    ## Chain 4: Iteration:  600 / 2000 [ 30%]  (Warmup)
-    ## Chain 4: Iteration:  800 / 2000 [ 40%]  (Warmup)
-    ## Chain 4: Iteration: 1000 / 2000 [ 50%]  (Warmup)
-    ## Chain 4: Iteration: 1001 / 2000 [ 50%]  (Sampling)
-    ## Chain 4: Iteration: 1200 / 2000 [ 60%]  (Sampling)
-    ## Chain 4: Iteration: 1400 / 2000 [ 70%]  (Sampling)
-    ## Chain 4: Iteration: 1600 / 2000 [ 80%]  (Sampling)
-    ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
-    ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
-    ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.023011 seconds (Warm-up)
-    ## Chain 4:                0.028106 seconds (Sampling)
-    ## Chain 4:                0.051117 seconds (Total)
+    ## Chain 4:  Elapsed Time: 0.023933 seconds (Warm-up)
+    ## Chain 4:                0.02328 seconds (Sampling)
+    ## Chain 4:                0.047213 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -1241,37 +1205,13 @@ all_PriorCheck_m <- brm(
 
     ## recompiling to avoid crashing R session
 
-    ## Trying to compile a simple C file
-
-    ## Running /Library/Frameworks/R.framework/Resources/bin/R CMD SHLIB foo.c
-    ## clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG   -I"/Users/nicoledwenger/Library/R/3.6/library/Rcpp/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/unsupported"  -I"/Users/nicoledwenger/Library/R/3.6/library/BH/include" -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/src/"  -I"/Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/"  -I"/Users/nicoledwenger/Library/R/3.6/library/rstan/include" -DEIGEN_NO_DEBUG  -D_REENTRANT  -DBOOST_DISABLE_ASSERTS -DBOOST_PENDING_INTEGER_LOG2_HPP -include stan/math/prim/mat/fun/Eigen.hpp   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -c foo.c -o foo.o
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:88:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:1: error: unknown type name 'namespace'
-    ## namespace Eigen {
-    ## ^
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/src/Core/util/Macros.h:613:16: error: expected ';' after top level declarator
-    ## namespace Eigen {
-    ##                ^
-    ##                ;
-    ## In file included from <built-in>:1:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/StanHeaders/include/stan/math/prim/mat/fun/Eigen.hpp:13:
-    ## In file included from /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Dense:1:
-    ## /Users/nicoledwenger/Library/R/3.6/library/RcppEigen/include/Eigen/Core:96:10: fatal error: 'complex' file not found
-    ## #include <complex>
-    ##          ^~~~~~~~~
-    ## 3 errors generated.
-    ## make: *** [foo.o] Error 1
-
     ## Start sampling
 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 1).
     ## Chain 1: 
-    ## Chain 1: Gradient evaluation took 2.4e-05 seconds
-    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.24 seconds.
+    ## Chain 1: Gradient evaluation took 1.5e-05 seconds
+    ## Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.15 seconds.
     ## Chain 1: Adjust your expectations accordingly!
     ## Chain 1: 
     ## Chain 1: 
@@ -1288,9 +1228,9 @@ all_PriorCheck_m <- brm(
     ## Chain 1: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 1: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 1: 
-    ## Chain 1:  Elapsed Time: 0.031258 seconds (Warm-up)
-    ## Chain 1:                0.029121 seconds (Sampling)
-    ## Chain 1:                0.060379 seconds (Total)
+    ## Chain 1:  Elapsed Time: 0.032001 seconds (Warm-up)
+    ## Chain 1:                0.026316 seconds (Sampling)
+    ## Chain 1:                0.058317 seconds (Total)
     ## Chain 1: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 2).
@@ -1313,15 +1253,15 @@ all_PriorCheck_m <- brm(
     ## Chain 2: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 2: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 2: 
-    ## Chain 2:  Elapsed Time: 0.02766 seconds (Warm-up)
-    ## Chain 2:                0.03287 seconds (Sampling)
-    ## Chain 2:                0.06053 seconds (Total)
+    ## Chain 2:  Elapsed Time: 0.028789 seconds (Warm-up)
+    ## Chain 2:                0.025254 seconds (Sampling)
+    ## Chain 2:                0.054043 seconds (Total)
     ## Chain 2: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 3).
     ## Chain 3: 
-    ## Chain 3: Gradient evaluation took 9e-06 seconds
-    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.09 seconds.
+    ## Chain 3: Gradient evaluation took 5e-06 seconds
+    ## Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
     ## Chain 3: Adjust your expectations accordingly!
     ## Chain 3: 
     ## Chain 3: 
@@ -1338,9 +1278,9 @@ all_PriorCheck_m <- brm(
     ## Chain 3: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 3: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 3: 
-    ## Chain 3:  Elapsed Time: 0.031358 seconds (Warm-up)
-    ## Chain 3:                0.022881 seconds (Sampling)
-    ## Chain 3:                0.054239 seconds (Total)
+    ## Chain 3:  Elapsed Time: 0.028968 seconds (Warm-up)
+    ## Chain 3:                0.024657 seconds (Sampling)
+    ## Chain 3:                0.053625 seconds (Total)
     ## Chain 3: 
     ## 
     ## SAMPLING FOR MODEL '0dc13a45afab2f57b619df1b1973a90b' NOW (CHAIN 4).
@@ -1363,9 +1303,9 @@ all_PriorCheck_m <- brm(
     ## Chain 4: Iteration: 1800 / 2000 [ 90%]  (Sampling)
     ## Chain 4: Iteration: 2000 / 2000 [100%]  (Sampling)
     ## Chain 4: 
-    ## Chain 4:  Elapsed Time: 0.028617 seconds (Warm-up)
-    ## Chain 4:                0.038365 seconds (Sampling)
-    ## Chain 4:                0.066982 seconds (Total)
+    ## Chain 4:  Elapsed Time: 0.027189 seconds (Warm-up)
+    ## Chain 4:                0.026692 seconds (Sampling)
+    ## Chain 4:                0.053881 seconds (Total)
     ## Chain 4:
 
 ``` r
@@ -1467,7 +1407,7 @@ pp_check(voicemind_m, nsamples = 100)
 ``` r
 #MODEL OUTPUT AND PLOTS -------------------------------------
 #model output
-voicehearing_m 
+summary(voicehearing_m)
 ```
 
     ##  Family: gaussian 
@@ -1491,7 +1431,7 @@ voicehearing_m
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-mindreading_m
+summary(mindreading_m)
 ```
 
     ##  Family: gaussian 
@@ -1515,7 +1455,7 @@ mindreading_m
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-apathy_m
+summary(apathy_m)
 ```
 
     ##  Family: gaussian 
@@ -1539,7 +1479,7 @@ apathy_m
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-voicemind_m
+summary(voicemind_m)
 ```
 
     ##  Family: gaussian 
@@ -1564,7 +1504,7 @@ voicemind_m
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-all_m
+summary(all_m)
 ```
 
     ##  Family: gaussian 
@@ -1944,7 +1884,7 @@ get_prior(voicehearing_f, family = gaussian, d)
     ##                 prior     class         coef group resp dpar nlpar bound
     ## 1                             b                                         
     ## 2                             b VoiceHearing                            
-    ## 3 student_t(3, 0, 10) Intercept                                         
+    ## 3 student_t(3, 4, 10) Intercept                                         
     ## 4 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -1954,7 +1894,7 @@ get_prior(mindreading_f, family = gaussian, d)
     ##                 prior     class        coef group resp dpar nlpar bound
     ## 1                             b                                        
     ## 2                             b MindReading                            
-    ## 3 student_t(3, 0, 10) Intercept                                        
+    ## 3 student_t(3, 4, 10) Intercept                                        
     ## 4 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -1964,7 +1904,7 @@ get_prior(apathy_f, family = gaussian, d)
     ##                 prior     class   coef group resp dpar nlpar bound
     ## 1                             b                                   
     ## 2                             b Apathy                            
-    ## 3 student_t(3, 0, 10) Intercept                                   
+    ## 3 student_t(3, 4, 10) Intercept                                   
     ## 4 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -1975,7 +1915,7 @@ get_prior(voicemind_f, family = gaussian, d)
     ## 1                             b                                         
     ## 2                             b  MindReading                            
     ## 3                             b VoiceHearing                            
-    ## 4 student_t(3, 0, 10) Intercept                                         
+    ## 4 student_t(3, 4, 10) Intercept                                         
     ## 5 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -1987,7 +1927,7 @@ get_prior(all_f, family = gaussian, d)
     ## 2                             b       Apathy                            
     ## 3                             b  MindReading                            
     ## 4                             b VoiceHearing                            
-    ## 5 student_t(3, 0, 10) Intercept                                         
+    ## 5 student_t(3, 4, 10) Intercept                                         
     ## 6 student_t(3, 0, 10)     sigma
 
 ``` r
@@ -2140,7 +2080,7 @@ pp_check(voicemind_m1, nsamples = 100)
 
 ``` r
 #RUN MODELS AND PLOTS -------------------------------------
-voicehearing_m1 
+summary(voicehearing_m1)
 ```
 
     ##  Family: gaussian 
@@ -2164,7 +2104,7 @@ voicehearing_m1
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-mindreading_m1
+summary(mindreading_m1)
 ```
 
     ##  Family: gaussian 
@@ -2188,7 +2128,7 @@ mindreading_m1
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-apathy_m1
+summary(apathy_m1)
 ```
 
     ##  Family: gaussian 
@@ -2212,7 +2152,7 @@ apathy_m1
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-voicemind_m1
+summary(voicemind_m1)
 ```
 
     ##  Family: gaussian 
@@ -2237,7 +2177,7 @@ voicemind_m1
     ## scale reduction factor on split chains (at convergence, Rhat = 1).
 
 ``` r
-all_m1
+summary(all_m1)
 ```
 
     ##  Family: gaussian 
@@ -2600,7 +2540,6 @@ the same biases in your analysis.
 #add noise in different levels of symptoms 
 #look at network of correlation between symptoms 
 #should question regression analysis symptoms + cognitive effects + thinking that model comparison won't leave you anywhere if you don't have a theory 
-
 
 pacman::p_load(MASS, tidyverse, psych)
 
